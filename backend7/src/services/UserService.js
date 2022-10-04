@@ -14,7 +14,7 @@ module.exports = {
   },
 
   generateToken(user) {
-    return jwt.sign({ id: user.id }, "SenhaLegal", {
+    return jwt.sign({ id: user.id }, process.env.JWT_KEY, {
       expiresIn: "1d",
     });
   },
