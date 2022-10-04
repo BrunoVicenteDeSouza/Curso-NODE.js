@@ -11,7 +11,7 @@ module.exports = async (req, res, next) => {
     const [schema, token] = authHeader.split(' ');
 
     try {
-        const decoded = await promisify(jwt.verify)(token, 'SenhaLegal');
+        const decoded = await promisify(jwt.verify)(token, process.env.JWT_KEY);
 
         req.userId = decoded.id;
 
