@@ -43,3 +43,9 @@ Nessa aulas vimos alguns métodos de criptografia do tipo hash e aplicamos no pr
 ## Aula 7 - Validações e throw Error.
 Aqui utilizamos validações e tratamos erros.
 - Criamos novas camadas
+
+## Aula 8 - Ferramentas Dev (Git e Github)
+Aqui começamos o repositorio no Github
+
+## Aula 9 - Variáveis de ambiente e Dotenv
+Nessa aula aplicamos mais segurança aos nosso projetos com Dotenv.
